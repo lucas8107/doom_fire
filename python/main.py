@@ -33,7 +33,8 @@ def update_fire():
 
         fire_arr[i] = new_int
         
-        fire_arr[i - decay] = new_int
+        if i - decay >= 0:
+            fire_arr[i - decay] = new_int
 
 def render_fire(display):
     for i in range(0, PIXEL_TOTAL, FIRE_WIDTH):

@@ -1,4 +1,4 @@
-const FIRE_WIDTH = 10;
+const FIRE_WIDTH = 40;
 const FIRE_HEIGHT = 40;
 const PIXEL_SIZE = 10;
 const PIXEL_TOTAL = FIRE_HEIGHT * FIRE_WIDTH;
